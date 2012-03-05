@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TelBase</string>
+    
+    <string name="db_create_script">
+        CREATE TABLE IF NOT EXISTS telbase (
+			tel INTEGER PRIMARY KEY NOT NULL,
+			name VARCHAR(255)
+		);
+    </string>
+    
+    <string name="lookup_button_text">Lookup</string>
+    <string name="result_view_no_results_yet">(no results yet)</string>
+    <string name="result_view_not_found">(not found)</string>
+    <string name="call_toast_not_found">(not found)</string>
+
+</resources>

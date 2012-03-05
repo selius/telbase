@@ -1,0 +1,38 @@
+telbase - External telephone numbers database for Android
+Copyright 2011-2012  Alexander Nartov
+
+Description
+-----------
+telbase is an application for Android that enables you to lookup
+telephone numbers in external (not-in-Contacts) database.
+
+Numbers and their corresponding owners are stored in SQLite database.
+It's up to you where to find and how to add data to your base.
+I suggest generating a SQL script with INSERT queries and feed it
+to sqlite3 program.
+
+The main feature of this program is the ability to see number's owner
+in a "toast" over the incoming/ongoing call screens.
+
+It's also possible to lookup numbers using the main activity GUI.
+
+Permissions
+-----------
+telbase requires READ_PHONE_STATE permission to automatically
+show the name of a number's owner when you receive an incoming call.
+
+Licensing
+---------
+
+telbase is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+telbase is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with telbase.  If not, see <http://www.gnu.org/licenses/>.

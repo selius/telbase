@@ -1,5 +1,5 @@
 telbase - External telephone numbers database for Android
-Copyright 2011-2012  Alexander Nartov
+Copyright 2011-2013  Alexander Nartov
 
 Description
 -----------
@@ -20,6 +20,8 @@ Permissions
 -----------
 telbase requires READ_PHONE_STATE permission to automatically
 show the name of a number's owner when you receive an incoming call.
+RECEIVE_BOOT_COMPLETED is required to start the service automatically
+on boot.
 
 Licensing
 ---------

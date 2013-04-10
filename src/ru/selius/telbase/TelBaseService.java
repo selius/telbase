@@ -21,7 +21,7 @@ public class TelBaseService extends Service {
 	private TelBasePhoneStateListener _phoneStateListener;
 
 	@Override
-	public IBinder onBind(Intent arg0) {
+	public IBinder onBind(Intent intent) {
 		return _binder;
 	}
 
